@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조아련입니다</title>
+
+    <!-- remixicon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css" rel="stylesheet">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+    <!-- emailJS cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+</head>
+<body>
+
+    <div class="Wrap">
+
+        <!-- 왼쪽 덩어리 -->
+        <div class="about">
+
+            <!-- 프로필 섹션 -->
+            <div class="Profile">
+                <div class="Profile-img">
+                    <img src="images/캐릭터 이미지.png" alt="*">
+                </div>      
+
+                <div class="Profile-keyword">
+                    <span class="keyword">#친근한UI</span>
+                    <span class="keyword">#생활속UX</span>
+                    <span class="keyword">#성실함</span>
+                    <span class="keyword">#사람중심</span>
+                </div>
+
+                <div class="Profile-Bio">
+                    <span>사람을 이해하는 UX기반 UI디자이너  <strong>조아련</strong> 입니다.</span>
+                    <p>사람의 상황과 감정을 이해하고<br>친근하고 쉬운 UI로 풀어내는 디자이너입니다</p>
+
+                </div>
+
+                <div class="Profile-btn">
+                    <div class="pigma">피그마 바로가기</div>
+                    <div class="behance">비핸스 바로가기</div>
+                </div>
+            </div>
+
+            <!-- 스킬 섹션 -->
+            <div class="skill">
+                <div class="title">Skill</div>
+                <div class="skill-list">
+                    <div class="skill-group">
+                        <p>Design</p>
+                        <div class="skill-icons">
+                            <img src="images/피그마 icon.png" alt="Figma">
+                            <img src="images/Ai icon.png" alt="Illustrator">
+                            <img src="images/Ps icon.png" alt="Photoshop">
+                            <img src="images/프로 icon.png" alt="Sketch">
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <p>Blueprint</p>
+                        <div class="skill-icons">
+                            <img src="images/3D icon.png" alt="3D">
+                            <img src="images/cad icon.png" alt="cad">
+                            <img src="images/스케치업 icon.png" alt="Sketch up">
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <p>Collaborate</p>
+                        <div class="skill-icons">
+                            <img src="images/miro icon.png" alt="miro*">
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <p>Coding</p>
+                        <div class="skill-icons">
+                            <img src="images/vsc icon.png" alt="vsc">
+                            <img src="images/html icon.png" alt="html">
+                            <img src="images/css icon.png" alt="css">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 컨텍트 섹션 -->
+            <div class="contact">
+                <div class="contact-title">Contact</div>
+                <button class="contact-btn">Contact Me</button>
+            </div>
+        </div>
+
+        <!-- 가운데 덩어리 -->
+        <div class="main">
+            <!-- 브라우저 상단 바 -->
+            <div class="browser-bar">
+                <div class="browser-buttons">
+                    <img src="images/빨강버튼 icon.png" alt="닫기">
+                    <img src="images/노랑버튼 icon.png" alt="최소화">
+                    <img src="images/초록버튼 icon.png" alt="최대화">
+                </div>
+            </div>
+
+            <!-- 윈도우 내용창 -->
+            <div class="window-content">
+
+                <!-- 사이드 네비게이션 — 윈도우 내용창 위에 둥둥 -->
+                <nav class="main-nav">
+                    <ul>
+                        <li class="nav-item" data-tab="web"><a href="#">Web</a></li>
+                        <li class="nav-item" data-tab="app"><a href="#">App</a></li>
+                        <li class="nav-item" data-tab="illust"><a href="#">Illust</a></li>
+                        <li class="nav-item" data-tab="more"><a href="#"><img src="images/more icon.png" alt="more" id="more-icon"></a></li>
+                    <div class="nav-home active" data-tab="home">
+                        <img src="images/홈 icon.png" alt="home" id="home-icon">
+                    </div>
+                </nav>
+
+                <!-- 프로젝트 컨텐츠 섹션 -->
+                
+                <div class="content-area" id="content-area">
+
+                    <!-- HOME -->
+                    <div id="view-home" class="tab-view home-feed">
+
+                        <!-- 카드 1: 웹 (가로 full) -->
+                        <div class="feed-card full">
+                        <img src="images/wep1.png" alt="모동숲 프로젝트">
+                        </div>
+
+                        <!-- 카드 2: NOLAT 타이틀 블록 -->
+                        <div class="feed-card full nolat-title-card">
+                        <img src="images/app1.png" alt="NOLAT">
+                        </div>
+
+                        <!-- 카드 3: 캐릭터 + NOLAT 로고 (2열) -->
+                        <div class="feed-row">
+                        <div class="feed-card half">
+                            <img src="images/app2.png" alt="NOLAT 캐릭터">
+                        </div>
+                        <div class="feed-card half nolat-logo-card">
+                            <img src="images/projects/NOLAT_로고.png" alt="NOLAT 로고">
+                        </div>
+                        </div>
+
+                        <!-- 카드 4: 콜라보 포스터 (2열) -->
+                        <div class="feed-row">
+                        <div class="feed-card half">
+                            <img src="images/ai1.png" alt="달콤한 모험">
+                        </div>
+                        <div class="feed-card half">
+                            <img src="images/ai2.png" alt="Knotted 모험의탑">
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <!-- WEB, APP, ILLUST, MORE 탭은 여기 아래에 계속 -->
+                    <!-- ✅ view-home 아래에 이어서 붙여넣기 -->
+
+                    <!-- ─────── WEB ───────── -->
+                    <div id="view-web" class="tab-view project-view" style="display:none;">
+
+                        <div class="project-hero">
+                            <div class="hero-img gray-box"></div>
+                            <div class="hero-info">
+                                <p class="hero-category">웹 리디자인 프로젝트</p>
+                                <h2 class="hero-title">NINTENDO</h2>
+                                <p class="hero-desc">누구나 즐길수있는 닌텐도</p>
+                                <div class="hero-meta">
+                                    <div class="meta-row">
+                                        <span class="meta-key">프로젝트 기간</span>
+                                        <span class="meta-val">2025.06 — 2025.08</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">사용툴</span>
+                                        <span class="meta-val">Figma, Photoshop</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">기여도</span>
+                                        <span class="meta-val">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-grid">
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box"></div>
+                                <div class="grid-img gray-box dark"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box dark"></div>
+                                <div class="grid-img gray-box"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box"></div>
+                                <div class="grid-img gray-box dark"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ───── APP ─────── -->
+                    <div id="view-app" class="tab-view project-view" style="display:none;">
+
+                        <div class="project-hero">
+                            <div class="hero-img gray-box"></div>
+                            <div class="hero-info">
+                                <p class="hero-category">앱 디자인 프로젝트</p>
+                                <h2 class="hero-title">NOLAT</h2>
+                                <p class="hero-desc">놀면서 배우는 언어 학습 앱</p>
+                                <div class="hero-meta">
+                                    <div class="meta-row">
+                                        <span class="meta-key">프로젝트 기간</span>
+                                        <span class="meta-val">2026.01 — 2026.04</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">사용툴</span>
+                                        <span class="meta-val">Figma, Miro, Whisk</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">기여도</span>
+                                        <span class="meta-val">팀 4인</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-grid">
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box dark"></div>
+                                <div class="grid-img gray-box"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box"></div>
+                                <div class="grid-img gray-box dark"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box dark"></div>
+                                <div class="grid-img gray-box"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ──── ILLUST ──── -->
+                    <div id="view-illust" class="tab-view project-view" style="display:none;">
+
+                        <div class="project-hero">
+                            <div class="hero-img gray-box"></div>
+                            <div class="hero-info">
+                                <p class="hero-category">프로모션 일러스트</p>
+                                <h2 class="hero-title">ILLUSTRATION</h2>
+                                <p class="hero-desc">브랜드를 담은 감성 일러스트</p>
+                                <div class="hero-meta">
+                                    <div class="meta-row">
+                                        <span class="meta-key">프로젝트 기간</span>
+                                        <span class="meta-val">2025.09 — 2025.11</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">사용툴</span>
+                                        <span class="meta-val">Illustrator, Photoshop</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">기여도</span>
+                                        <span class="meta-val">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-grid">
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box"></div>
+                                <div class="grid-img gray-box dark"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box dark"></div>
+                                <div class="grid-img gray-box"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box"></div>
+                                <div class="grid-img gray-box dark"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ───── more ────── -->
+                    <div id="view-more" class="tab-view project-view" style="display:none;">
+
+                        <div class="project-hero">
+                            <div class="hero-img gray-box"></div>
+                            <div class="hero-info">
+                                <p class="hero-category">3D 모델링 프로젝트</p>
+                                <h2 class="hero-title">3D WORK</h2>
+                                <p class="hero-desc">공간과 오브젝트를 담은 3D 작업</p>
+                                <div class="hero-meta">
+                                    <div class="meta-row">
+                                        <span class="meta-key">프로젝트 기간</span>
+                                        <span class="meta-val">2025.03 — 2025.06</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">사용툴</span>
+                                        <span class="meta-val">Blender, SketchUp</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-key">기여도</span>
+                                        <span class="meta-val">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-grid">
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box dark"></div>
+                                <div class="grid-img gray-box"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box"></div>
+                                <div class="grid-img gray-box dark"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                            <div class="grid-row two-col">
+                                <div class="grid-img gray-box dark"></div>
+                                <div class="grid-img gray-box"></div>
+                            </div>
+                            <div class="grid-row full-col">
+                                <div class="grid-img gray-box mid"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 오른쪽 덩어리 -->
+        <div class="widget">
+
+           <div class="date">
+                <p class="time" id="clock">11:30</p>
+                <p class="day" id="date">March 24Day</p>
+                <span id="weekday">Tuesday</span>
+            </div>
+
+            <div class="music">
+                <!-- 음악 플레이어 UI -->
+            </div>
+        </div>
+
+        <!-- 컨텍트 오버레이 -->
+        <div class="contact-overlay" id="contactOverlay">
+            <div class="contact-popup">
+
+                <!-- 왼쪽 정보 영역 -->
+                <div class="contact-left">
+                    <h1 class="contact-heading">Contact</h1>
+                        <div class="contact-info">
+                            <div class="info-group">
+                                <p class="info-label">이메일</p>
+                                <p class="info-value">jar4119@gmail.com</p>
+                            </div>
+                            <div class="info-group">
+                                <p class="info-label">연락처</p>
+                                <p class="info-value">T. 010-5808-4326</p>
+                            </div>
+                        </div>
+                </div>
+
+                <!-- 세로 구분선 -->
+                <div class="contact-divider"></div>
+
+                <!-- 오른쪽 폼 영역 -->
+                <form class="contact-right" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>회사명</label>
+                            <input type="text" placeholder="회사명을 입력해주세요" id="company">
+                        </div>
+                        <div class="form-group">
+                            <label>이름</label>
+                            <input type="text" placeholder="이름을 입력해주세요" id="name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>이메일</label>
+                            <input type="email" placeholder="이메일을 입력해주세요" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label>연락처</label>
+                            <input type="text" placeholder="연락처를 입력해주세요" id="phone">
+                        </div>
+                    </div>
+                    <div class="form-group full">
+                        <label>문의 내용</label>
+                        <textarea placeholder="내용을 입력해주세요" id="message"></textarea>
+                    </div>
+                    <button class="submit-btn" type="submit">보내기</button>
+                </form>
+
+            </div>
+        </div>
+        
+        <!-- About Me -->
+        <div class="aboutme-overlay" id="aboutmeOverlay">
+            <div class="aboutme-popup">
+
+                <!-- 왼쪽 영역 -->
+                <div class="aboutme-left">
+                    <h1 class="aboutme-heading">About Me</h1>
+
+                    <div class="aboutme-photo">
+                        <img src="images/증명사진.png" alt="프로필">
+                    </div>
+
+                    <div class="aboutme-info">
+                        <p class="aboutme-name">조아련&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1995.11.22</p>
+                        <p>jar4119@gmail.com</p>
+                        <p>T. 010-5808-4326</p>
+                    </div>
+
+                    <div class="aboutme-skills">
+                        <p class="skill-label">스킬</p>
+                        <div class="aboutme-skill-icons">
+                            <div>
+                                <img src="images/피그마 icon.png" alt="Figma">
+                                <img src="images/Ai icon.png" alt="Ai">
+                                <img src="images/Ps icon.png" alt="Ps">
+                                <img src="images/프로 icon.png" alt="Pro">
+                                <img src="images/miro icon.png" alt="Miro">
+
+                            </div>
+                            <div>
+
+                                <img src="images/3D icon.png" alt="3D">
+                                <img src="images/cad icon.png" alt="CAD">
+                                <img src="images/스케치업 icon.png" alt="SketchUp">
+                                <img src="images/vsc icon.png" alt="VSC">
+                                <img src="images/html icon.png" alt="HTML">
+                                <img src="images/css icon.png" alt="CSS">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 세로 구분선 -->
+                <div class="aboutme-divider"></div>
+
+                <!-- 오른쪽 영역 -->
+                <div class="aboutme-right">
+                    <div class="resume-section">
+                        <p class="resume-category">학력</p>
+                        <div class="resume-item">
+                            <span class="resume-date">2018.02</span>
+                            <span class="resume-desc">세명 대학교 실내디자인학과 졸업</span>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <p class="resume-category">경력 (제빵, 4년6개월)</p>
+                        <div class="resume-item">
+                            <span class="resume-date">2020. 06 ~ 2023. 02</span>
+                            <span class="resume-desc">매일산업</span>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-date">2019. 01 ~ 2020. 02</span>
+                            <span class="resume-desc">브래드택</span>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-date">2018. 06 ~ 2018. 12</span>
+                            <span class="resume-desc">진일산업</span>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <p class="resume-category">이수, 수상</p>
+                        <div class="resume-item">
+                            <span class="resume-date">2026.04</span>
+                            <span class="resume-desc">청년취업 사관학교 새싹 AI를 활용한 UX UI 모바일 웹 디자인 부트캠프 이수</span>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-date">2017.09</span>
+                            <span class="resume-desc">2017 국제청소년공간대전 학생공모전 입선</span>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-date">2012.07</span>
+                            <span class="resume-desc">GTQ 그래픽기술자격증2급</span>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-date">2011.06</span>
+                            <span class="resume-desc">ITQ 아래한글 A</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- js link -->
+    <script src="js/email.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+</html>
