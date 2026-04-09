@@ -80,6 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? 'images/홈 icon.png'
                 : 'images/homeicon.png';
         }
+        // more 아이콘 이미지 교체
+        const moreIcon = document.getElementById('more-icon');
+        if (moreIcon) {
+                moreIcon.src = (tab === 'more')
+                    ? 'images/more icon2.png'        // 활성 — 흰색 아이콘
+                    : 'images/more icon1.png'; // 비활성 — 회색 아이콘
+        }
 
         // 탭 뷰 show / hide
         TABS.forEach(t => {

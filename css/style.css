@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-image: url(/images/bg.png);
+    background-image: url(../images/bg.png);
     background-size: cover;
     background-position: center;
     max-width: 1920px;
@@ -300,10 +300,6 @@ body {
     color: #999;
     text-decoration: none;
 }
-.nav-item[data-tab="more"] a {
-    font-size: 100px;
-}
-
 .nav-item.active a {
     background: #F4A49A;
     color: #fff;
